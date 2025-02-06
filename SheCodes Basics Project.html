@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Basics Project</title>
+    <style>
+      h1 {
+        color: #fff;
+        text-align: center;
+        background-color: #02006c;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotateY(0deg);
+        }
+        100% {
+          transform: rotateY(360deg);
+        }
+      }
+      .emoji {
+        display: inline-block;
+        animation: rotate 3s linear infinite;
+      }
+      h2 {
+        text-align: center;
+        color: #02006c;
+        text-decoration: underline;
+        background: linear-gradient(to right, #02006c, #fff, #fff, #02006c);
+      }
+
+      p {
+        text-align: center;
+        color: #02006c;
+        font-weight: 100;
+        font-size: medium;
+      }
+      button {
+        text-align: center;
+        padding: 15px 20px;
+        color: #02006c;
+        display: block;
+        font-size: 16px;
+        border-radius: 40px;
+        margin: 30px auto;
+        border: 1px solid #262471;
+        background: whitesmoke;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        background: #02006c;
+        color: whitesmoke;
+        cursor: pointer;
+      }
+      .intouch {
+        text-align: center;
+        background-color: #02006c;
+        color: #fff;
+
+        list-style-type: none;
+      }
+      ul {
+        padding: 0;
+        margin: 20px;
+        list-style-type: none;
+        line-height: 1;
+        font-weight: 200;
+      }
+      .Price {
+        color: #02006c;
+      }
+      figure {
+        display: inline-block;
+        text-align: center;
+        margin: 30px;
+        text-decoration: none;
+        vertical-align: top;
+      }
+      .custom {
+        width: 400;
+        height: 5cm;
+      }
+    </style>
+  </head>
+  <!DOCTYPE html>
+  <html>
+    <body>
+      <h1>
+        <strong> Blue Dimy Hotel</strong>
+        <br />
+        <span class="emoji">💎</span>
+        <br />
+      </h1>
+      <h2>
+        <em>Welcome to Cape Town's premier Hotel</em>
+      </h2>
+      <p>
+        <strong
+          >Experience luxury and comfort at Blue Dimy Hotel, where every moment
+          is tailored to exceed your expectations. <br />
+          From elegant accommodations to exceptional dining options and relaxing
+          spa facilities, we offer everything you need for a memorable stay.
+          Experience unparalleled comfort and hospitality in the heart of the
+          city. <br />
+          Welcome to your home away from home!</strong
+        >
+      </p>
+      <hr />
+      <ul>
+        <figure>
+          <img
+            class="custom"
+            src="https://www.thespruce.com/thmb/_cqytaPIMC9wrih9qXFzJK67jcE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Interior-Impressions-Stillwater-MN-Classic-Coastal-Bedroom-Wicker-Bedframe-Blue-Accent-Wall-Behind-Bed-White-Plaid-Accent-Chairs-db295c5f747f45a0bdf5d658aefc51bd.jpeg"
+            alt="VIP Guestroom"
+            width="300"
+          />
+          <figcaption>
+            VIP Guestroom
+            <br />
+            <li class="Price">R1250 per night</li>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            class="custom"
+            src="https://img.staticmb.com/mbcontent/images/crop/uploads/2023/3/pop-design-for-bedrooms_0_1200.jpg"
+            alt="VVIP Guestroom"
+            width="300"
+            alt="VVIP Guestroom"
+          />
+          <figcaption>
+            VVIP Guestroom
+            <br />
+            <li class="Price">R1800 per night</li>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://lakehoteltagaytay.com/wp-content/uploads/2023/03/JuniorSuite.jpg"
+            width="300"
+            alt="Junior Suite"
+          />
+          <figcaption>
+            Junior Suite
+            <br />
+            <span class="Price">R3000 per night</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://www.sbid.org/wp-content/uploads/2020/12/Jeffrey-Beers-International-Park-Hyatts-Manhattan-Sky-Suite-1.jpg"
+            width="300"
+            alt="Modern Suite"
+          />
+          <figcaption>
+            Modern suite
+            <br />
+            <span class="Price">R3500 per night</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://darocha.co.za/wp-content/uploads/2021/10/Modern-Chesterfield-Couches.jpg"
+            width="300"
+            alt="Senior Suite"
+          />
+          <figcaption>
+            Senior Suite
+            <br />
+            <span class="Price">R3800 per night</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://loscabos.grandvelas.com/resourcefiles/suites-subpage-snippet/suite-ambassador-room.jpg"
+            width="300" alt="Presidential suite"
+          />
+          <figcaption>
+            Presidential Suite
+            <br />
+            <span class="Price">R4500 per night</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://images.mrandmrssmith.com/images/1536x624/5463423-spa-hotel-collection-luxury-and-boutique-hotels-mr-and-mrs-smith.jpg"
+            width="300"
+            alt="spa"
+          />
+          <figcaption>
+            Our luxury spa
+            <br />
+            <a href="#" target="_blank">See packages</a>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://images.luxuryhotel.guru/hotelimage.php?p_id=1&code=f03e8fddbdc6a3ff4273e94ca763e41b&webpage=hotels-with-gym.com&link=https%3A%2F%2Fsubdomain.cloudimg.io%2Fcrop%2F512x384%2Fq70.fcontrast10.fbright0.fsharp5%2Fhttps%3A%2F%2Fq-xx.bstatic.com%2Fxdata%2Fimages%2Fhotel%2Fmax1536%2F243034457.jpg%3Fk%3D2ef5bdca966c4f62cfb6c92611e9cb2312928d222c35e7cc8d1df10e47043ab4%26o%3D"
+            width="300"
+            alt="gym"
+          />
+          <figcaption>
+            Gym and Fitness center
+            <br />
+            <a href="#" target="_blank"> See packages </a>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            class="custom"
+            src="https://img.freepik.com/premium-photo/hotel-modern-design-interior_295714-4106.jpg?size=626&ext=jpg"
+            width="300"
+            alt="Lounge"
+          />
+          <figcaption>Our Exquisite Lounge</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://ilovemanchester.com/wp-content/uploads/2019/05/Dakota-bar.jpg"
+            width="300"
+            alt="Bar"
+          />
+          <figcaption>Our Classy Bar</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://cdn.loewshotels.com/loewshotels.com-2466770763/cms/cache/v2/5b31675b84c36.jpg/1920x1080/fit/80/018df64cc98ec7e9c4bc676ac7f9ea7f.jpg"
+            width="300"
+            alt="Meetings space"
+          />
+          <figcaption>Meetings & Events Space</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="custom"
+            src="https://cdn.openart.ai/stable_diffusion/f503fe513bfea8da57ab2a3194ffcf053466a56d_2000x2000.webp"
+            width="300"
+            alt="Dining Experience"
+          />
+          <figcaption>Experience a Wild Culinary Adventure!</figcaption>
+        </figure>
+        <button>Book Your Stay</button>
+        <p>
+          <strong>Receive up to 20% off when staying 7 nights or longer</strong>
+        </p>
+        <li class="intouch">
+          <strong>Contact Us</strong>
+          <div class="Insta">
+            <div class="mail">
+              <span
+                >Email:
+                <span style="color: white"
+                  >BlueDimyhotel@bookings.com</span
+                ></span
+              >
+              <span class="insta">
+                Instagram:
+                <span style="color: white">@BlueDimyhotel</span></span
+              >
+            </div>
+          </div>
+        </li>
+      </ul>
+      <script>
+        function bookYourStay() {
+          let names = prompt("What is your name?");
+          if (names === null) {
+            alert(
+              "Thank you for considering Blue Dimy Hotel. If you have any questions or need assistance, feel free to contact us."
+            );
+          } else {
+            let lastName = prompt("What is your last name?");
+            if (lastName === null) {
+              alert(
+                "Thank you for considering Blue Dimy Hotel. If you have any questions or need assistance, feel free to contact us."
+              );
+            } else {
+              let email = prompt("Please provide your email address");
+              if (email === null) {
+                alert(
+                  "Thank you for considering Blue Dimy Hotel. If you have any questions or need assistance, feel free to contact us."
+                );
+              } else {
+                alert(
+                  "Welcome to Blue Dimy Hotel booking system, " + names + "."
+                );
+                let booking = prompt("What service would you like to book?");
+                if (booking === null) {
+                  alert(
+                    "Thank you for considering  Hotel. If you have any questions or need assistance, feel free to contact us."
+                  );
+                } else {
+                  let duration = prompt(
+                    "How many days will you require the service?"
+                  );
+                  if (duration === null) {
+                    alert(
+                      "Thank you for considering Blue Dimy Hotel. If you have any questions or need assistance, feel free to contact us."
+                    );
+                  } else {
+                    alert(
+                      "Thank you for choosing our services, " +
+                        names +
+                        ". Your request is being processed, and we'll be in touch via email."
+                    );
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+          let bookYourStayButton = document.querySelector("button");
+          bookYourStayButton.addEventListener("click", bookYourStay);
+        });
+      </script>
+    </body>
+  </html>
+</html>
